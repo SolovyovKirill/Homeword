@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="homework6">Hello Android!!! </string>
+    <string name="poland">Poland!</string>
+    <string name="germany">Germany!</string>
+    <string name="france">France!</string>
+    <string name="latvia">Latvia!</string>
+    <string name="finland">Finland!</string>
 </resources>
