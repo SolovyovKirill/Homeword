@@ -7,7 +7,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -17,41 +20,44 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@color/white" />
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@color/red" />
-
+        </LinearLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/germany"
             android:textColor="@color/black"
             android:textSize="50sp" />
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
         <View
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@color/black" />
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@color/red" />
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@color/gold" />
-
+        </LinearLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -88,25 +94,28 @@
             android:text="@string/latvia"
             android:textColor="@color/black"
             android:textSize="50sp" />
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical">
         <View
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_weight="2"
             android:background="@color/vinous" />
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_weight="2"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:background="@color/white" />
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_weight="2"
             android:background="@color/vinous" />
-
+        </LinearLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
