@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_homework6" type="id" />
+    <item name="btn_homework7" type="id" />
+    <item name="timer_text" type="id" />
+    <item name="button" type="id" />
+    <item name="login_edit" type="id" />
+    <item name="password_edit" type="id" />
+    <item name="user_login" type="id" />
+    <item name="user_password" type="id" />
+</resources>

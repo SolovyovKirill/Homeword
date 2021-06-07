@@ -1,9 +1,18 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="homework6">Hello Android!!! </string>
+    <string name="homework6">HW6 </string>
     <string name="poland">Poland!</string>
     <string name="germany">Germany!</string>
     <string name="france">France!</string>
     <string name="latvia">Latvia!</string>
     <string name="finland">Finland!</string>
+    <string name="homework7">HW7 </string>/>
+    <string name="enter_password">Enter your password</string>
+    <string name="enter_login">Enter your login</string>
+    <string name="click">Click</string>
+    <string name="about_user">About user:</string>
+    <string name="click_on_button">Click on button</string>
+    <string name="login">Login: </string>
+    <string name="password">Password: </string>
+
 </resources>
