@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,9 +11,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".homework7.UserInformationActivity"></activity>
-        <activity android:name=".homework7.Homework7Activity" />
-        <activity android:name=".homework6.Homework6Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".homework6.Homework6Activity" />
+        <activity
+            android:name=".homework7.UserInformationActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".homework7.Homework7Activity"
+            android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>

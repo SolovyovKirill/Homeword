@@ -14,5 +14,6 @@
     <string name="click_on_button">Click on button</string>
     <string name="login">Login: </string>
     <string name="password">Password: </string>
+    <string name="close">close</string>
 
 </resources>
