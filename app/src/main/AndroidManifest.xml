@@ -18,13 +18,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".homework6.Homework6Activity" />
+        <activity android:name=".homework6.FlagsActivity" />
         <activity
             android:name=".homework7.UserInformationActivity"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".homework7.Homework7Activity"
+            android:name=".homework7.CounterActivity"
             android:screenOrientation="fullSensor" />
+        <activity android:name=".homework10.CandyActivity"/>
     </application>
 
 </manifest>

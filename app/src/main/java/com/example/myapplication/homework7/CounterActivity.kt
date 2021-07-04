@@ -4,15 +4,16 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.view.isVisible
-import com.example.myapplication.databinding.ActivityHomework7Binding
+import com.example.myapplication.databinding.ActivityCounterBinding
 
-class Homework7Activity : AppCompatActivity() {
-    private lateinit var binding: ActivityHomework7Binding
+
+class CounterActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityCounterBinding
     private  var timerNumber: Int = 10
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityHomework7Binding.inflate(layoutInflater)
+        binding = ActivityCounterBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         if (savedInstanceState != null)

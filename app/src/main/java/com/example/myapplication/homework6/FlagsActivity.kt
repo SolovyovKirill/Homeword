@@ -2,14 +2,15 @@ package com.example.myapplication.homework6
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.myapplication.databinding.ActivityHomework6Binding
+import com.example.myapplication.databinding.ActivityFlagsBinding
 
-class Homework6Activity : AppCompatActivity() {
-    private lateinit var binding: ActivityHomework6Binding
+
+class FlagsActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityFlagsBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityHomework6Binding.inflate(layoutInflater)
+        binding = ActivityFlagsBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
 }
