@@ -25,7 +25,8 @@
         <activity
             android:name=".homework7.CounterActivity"
             android:screenOrientation="fullSensor" />
-        <activity android:name=".homework10.CandyActivity"/>
+        <activity android:name=".homework10.CandyActivity"
+        android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>
