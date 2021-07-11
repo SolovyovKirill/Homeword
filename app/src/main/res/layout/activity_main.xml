@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
     android:gravity="center"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:padding="32dp">
 
     <Button
         android:id="@+id/btn_homework6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/homework6"/>
+        android:text="@string/homework6" />
 
     <Button
         android:id="@+id/btn_homework7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/homework7"/>
+        android:text="@string/homework7" />
+
     <Button
         android:id="@+id/btn_homework10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/homework10"/>
+        android:text="@string/homework10" />
 
+    <Button
+        android:id="@+id/btn_homework12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homework12" />
 </LinearLayout>

@@ -27,6 +27,8 @@
             android:screenOrientation="fullSensor" />
         <activity android:name=".homework10.CandyActivity"
         android:screenOrientation="fullSensor" />
+        <activity android:name=".homework12.FragmentActivity"
+            android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>

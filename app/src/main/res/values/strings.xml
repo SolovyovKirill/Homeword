@@ -16,5 +16,13 @@
     <string name="password">Password: </string>
     <string name="close">close</string>
     <string name="homework10">HW10 </string>
+    <string name="homework12">HW12 </string>
+    <string name="nextFragment"> Next Fragment </string>
+    <string name="first_fragment"> First Fragment </string>
+    <string name="second_fragment"> Second Fragment </string>
+    <string name="third_fragment"> Third Fragment </string>
+    <string name="fourth_fragment"> Fourth Fragment </string>
+    <string name="fifth_fragment"> Fifth Fragment </string>
+    />
 
 </resources>
