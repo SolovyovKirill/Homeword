@@ -6,6 +6,8 @@ import android.os.Bundle
 import com.example.myapplication.databinding.ActivityMainBinding
 import com.example.myapplication.homework10.CandyActivity
 import com.example.myapplication.homework12.FragmentActivity
+import com.example.myapplication.homework13.MyActivity
+import com.example.myapplication.homework16.MessageActivity
 import com.example.myapplication.homework6.FlagsActivity
 import com.example.myapplication.homework7.CounterActivity
 
@@ -29,6 +31,12 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnHomework12.setOnClickListener {
             startActivity(Intent(this, FragmentActivity::class.java))
+        }
+        binding.btnHomework13.setOnClickListener {
+            startActivity(Intent(this, MyActivity::class.java))
+        }
+        binding.btnHomework16.setOnClickListener {
+            startActivity(Intent(this, MessageActivity::class.java))
         }
     }
 }

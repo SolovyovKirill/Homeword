@@ -23,6 +23,9 @@
     <string name="third_fragment"> Third Fragment </string>
     <string name="fourth_fragment"> Fourth Fragment </string>
     <string name="fifth_fragment"> Fifth Fragment </string>
+    <string name="homework13">HW13 </string>
+    <string name="homework16">HW16</string>
+    <string name="message">Enter your message</string>
     />
 
 </resources>

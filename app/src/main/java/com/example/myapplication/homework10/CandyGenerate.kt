@@ -3,6 +3,7 @@ package com.example.myapplication.homework10
 object CandyGenerate {
 
     private val listCandy = mutableListOf<Candy>()
+    const val TAG = "TAG"
     const val BRAND_SNICKERS = "Snickers"
     const val BRAND_MARS = "Mars"
     const val BRAND_BOUNTY = "Bounty"
@@ -32,6 +33,6 @@ object CandyGenerate {
         return listCandy
     }
 
-    private fun generateBarcode() = (10000000..99999999).random()
+     fun generateBarcode() = (10000000..99999999).random()
 
 }
