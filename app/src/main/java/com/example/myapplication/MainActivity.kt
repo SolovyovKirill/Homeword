@@ -8,6 +8,7 @@ import com.example.myapplication.homework10.CandyActivity
 import com.example.myapplication.homework12.FragmentActivity
 import com.example.myapplication.homework13.MyActivity
 import com.example.myapplication.homework16.MessageActivity
+import com.example.myapplication.homework17.CurrencyActivity
 import com.example.myapplication.homework6.FlagsActivity
 import com.example.myapplication.homework7.CounterActivity
 
@@ -37,6 +38,9 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnHomework16.setOnClickListener {
             startActivity(Intent(this, MessageActivity::class.java))
+        }
+        binding.btnHomework17.setOnClickListener {
+            startActivity(Intent(this, CurrencyActivity::class.java))
         }
     }
 }

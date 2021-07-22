@@ -26,6 +26,12 @@
     <string name="homework13">HW13 </string>
     <string name="homework16">HW16</string>
     <string name="message">Enter your message</string>
+    <string name="homework17">HW17</string>
+    <string name="hint_id">id</string>
+    <string name="hint_name">name</string>
+    <string name="hind_symbol">symbol</string>
+    <string name="hint_count">Введите число</string>
+    <string name="Start">Start</string>
     />
 
 </resources>

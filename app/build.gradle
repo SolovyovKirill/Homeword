@@ -15,6 +15,7 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -23,6 +24,14 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField "String","API_KEY", '"X-CMC_PRO_API_KEY: 6cc620b6-7c59-40b6-8906-5c556cfd51ae"'
+            buildConfigField "String","BASE_URL", '"https://pro-api.coinmarketcap.com/"'
+        }
+
+        debug {
+            buildConfigField "String","BASE_URL", '"https://pro-api.coinmarketcap.com/"'
+            buildConfigField "String","API_KEY", '"X-CMC_PRO_API_KEY: 6cc620b6-7c59-40b6-8906-5c556cfd51ae"'
+
         }
     }
     compileOptions {
@@ -51,8 +60,18 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.12.0'
     kapt 'com.github.bumptech.glide:compiler:4.12.0'
 
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.0" //для конвертации Flow в LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1" //для конвертации Flow в LiveData
     implementation "androidx.room:room-ktx:2.3.0" //для корутин в Room
     kapt "androidx.room:room-compiler:2.3.0" //Room основная либа
     implementation "androidx.room:room-runtime:2.3.0" //Room основная либа
+
+    implementation "com.squareup.retrofit2:retrofit:2.9.0" //Retrofit для REST API
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.1' //Для ретрофита, чтобы преобразовывать Json -> Объект
+    implementation "com.google.code.gson:gson:2.8.7" //чтобы преобразовывать Json -> Объект
+    implementation "com.squareup.okhttp3:logging-interceptor:3.14.1" //для логов в ретрофите
+
+    implementation 'org.koin:koin-android-ext:2.2.2'//Koin
+    implementation 'org.koin:koin-androidx-viewmodel:2.2.2'//Koin
+
+    implementation 'androidx.multidex:multidex:2.0.1'
 }

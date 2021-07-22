@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        tools:ignore="AllowBackup,ExtraText,MissingClass">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,8 +37,11 @@
             android:name=".homework13.MyActivity"
             android:screenOrientation="fullSensor" />
         <activity
-        android:name=".homework16.MessageActivity"
-            android:screenOrientation="fullSensor"/>
+            android:name=".homework16.MessageActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".homework17.CurrencyActivity"
+            android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>
