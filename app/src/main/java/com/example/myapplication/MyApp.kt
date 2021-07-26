@@ -1,6 +1,8 @@
 package com.example.myapplication
 
+import android.app.AlarmManager
 import android.app.Application
+import android.content.Context
 import androidx.room.Room
 import com.example.myapplication.homework13.SharedPreferencesUtils
 import com.example.myapplication.homework13.SharedPrefsKeys.PREFS_KEY
@@ -37,7 +39,7 @@ class MyApp : Application() {
 
         startKoin {
             androidContext(this@MyApp)
-            modules(listOf(viewModels, storageModule, repositoryModule))
+            modules(viewModels, storageModule, repositoryModule)
         }
 
         SharedPreferencesUtils.sharedPrefs = applicationContext.getSharedPreferences(

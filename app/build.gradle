@@ -26,11 +26,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             buildConfigField "String","API_KEY", '"X-CMC_PRO_API_KEY: 6cc620b6-7c59-40b6-8906-5c556cfd51ae"'
             buildConfigField "String","BASE_URL", '"https://pro-api.coinmarketcap.com/"'
+
+            buildConfigField "String","API_KEY_WEATHER", '"X-CMC_PRO_API_KEY: 11b6c89ab23dd412a1d99c593c7c1722"'
+            buildConfigField "String","BASE_URL_WEATHER", '"https://api.openweathermap.org"'
         }
 
         debug {
             buildConfigField "String","BASE_URL", '"https://pro-api.coinmarketcap.com/"'
             buildConfigField "String","API_KEY", '"X-CMC_PRO_API_KEY: 6cc620b6-7c59-40b6-8906-5c556cfd51ae"'
+
+            buildConfigField "String","API_KEY_WEATHER", '"X-CMC_PRO_API_KEY: 11b6c89ab23dd412a1d99c593c7c1722"'
+            buildConfigField "String","BASE_URL_WEATHER", '"https://api.openweathermap.org"'
 
         }
     }

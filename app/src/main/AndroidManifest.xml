@@ -42,6 +42,17 @@
         <activity
             android:name=".homework17.CurrencyActivity"
             android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".homework19.AlarmActivity"
+            android:screenOrientation="fullSensor" />
+
+        <activity
+            android:name=".homework20.WeatherActivity"
+            android:screenOrientation="fullSensor" />
+
+        <receiver android:name=".homework19.AlarmReceiver"/>
+
+        <service android:name=".homework19.AlarmService"/>
     </application>
 
 </manifest>
